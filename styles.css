@@ -1,0 +1,91 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html,body{
+   font-family: oswald;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    /* background:url("./backgrounnd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .heading{
+    padding-bottom: 30px;
+    font-size: 50px; 
+ }
+
+ .search:hover{
+    border: solid  black 1.5px;
+    
+ }
+ .btn1:hover{
+    background-color: greenyellow;
+    border: solid  black 1.5px;
+ }
+ .btn1:active{
+  background-color: aquamarine;
+ }
+ #profileContainer{
+  width:100%;
+ }
+ .profile-card{
+  margin:auto;
+  padding-top: 20px;
+   height: 400px;
+   /* width:100%; */
+   max-width: 800px;
+   border-radius: 20px;
+   box-shadow: 0 0 1rem black;
+   
+ }
+
+ .profile-card:hover{
+  transform: rotateZ(-2deg) scale(1.01);
+  transition: 0.5s ease-in-out;
+}
+ .username{
+   align-self: center;
+ }
+ .footer{
+   margin:20px;
+   display: flex;
+   gap:20px;
+   position: relative;
+ }
+ .btn2{
+   height: 30px;
+   width: 100px;
+   position: absolute;
+   right: 10px;
+   top: 10px;
+ }
+
+ .header{
+   margin: 20px;
+ }
+
+ .last{
+   margin:50px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .last h2{
+    font-size: 20px;
+ }
+ 
+ .hide{
+  display: none;
+ }
